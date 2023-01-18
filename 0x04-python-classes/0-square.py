@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-"""Square Class
-This class don't do anything for the moment
-"""
+"""Square class"""
 
 
 class Square:
-    pass
+    """defines square as class"""
+    def __init__(self, size):
+        """initializes square with size"""
+        self.__size = size
